@@ -1,0 +1,76 @@
+/* Typography
+--------------- */
+
+
+.h1             { font-size: $base-size * 3; }
+.h2             { font-size: $base-size * 2.5; }
+.h3             { font-size: $base-size * 2; }
+.h4             { font-size: $base-size * 1.5; }
+.h5             { font-size: $base-size; }
+.h6             { font-size: $base-size * .875; }
+
+.heading
+{
+	margin-top: $base-size * 1.5;
+	margin-bottom: $base-size;
+}
+
+.heading-inverse
+{
+	margin-top: $base-size;
+	margin-bottom: $base-size * 1.5;
+}
+
+.ul
+{
+	margin: $base-size;
+	list-style: disc;
+	li {
+		margin: $base-size * .5 0;
+		li {
+			font-size: .875em;
+		}
+	}
+}
+
+.ul-inline
+{
+	padding: 0;
+	margin-left: -$base-size * .5;
+}
+
+.ul-inline > li
+{
+	padding-right: $base-size * .5;
+	padding-left: $base-size * .5;
+	display: inline-block;
+}
+
+.ul-unstyled
+{
+	padding: 0;
+	list-style: none !important;
+}
+
+.ul-sm li
+{
+	margin-top: $base-size * .25;
+	margin-bottom: $base-size * .25;
+}
+
+.ul-sm li
+{
+	margin-top: $base-size * .5;
+	margin-bottom: $base-size * .5;
+}
+
+.ul-sm li
+{
+	margin-top: $base-size * .75;
+	margin-bottom: $base-size * .75;
+}
+
+.text-bold      { font-weight: bold; }
+.text-italic    { font-style: italic; }
+.text-center    { text-align: center; }
+.text-caps      { text-transform: center; }
