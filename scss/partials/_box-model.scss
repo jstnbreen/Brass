@@ -9,18 +9,21 @@
 .dt             { display: table; }
 .dtc            { display: table-cell; }
 
-.cf
-
-.w-full         { width: 100%; }
-.fit            { max-width: 100% !important; }
-
 .fl             { float: left !important; }
 .fr             { float: right !important; }
-.float-off      { float: right !important; }
+.fn             { float: none !important; }
 .cb             { clear: both !important; }
 
-//  cards
+.full           { width: 100%; }
+.fit            { max-width: 100% !important; }
 
-//  secondary text, for headers
-//  ablity to line break that text,
-//  move it down to the next line by adding a class
+
+
+
+//  .cf
+
+
+
+
+//  Positioning
+//  Need addition m-auto classes?
