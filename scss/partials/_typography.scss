@@ -58,13 +58,13 @@
 	margin-bottom: $base-size * .25;
 }
 
-.ul-sm li
+.ul-md li
 {
 	margin-top: $base-size * .5;
 	margin-bottom: $base-size * .5;
 }
 
-.ul-sm li
+.ul-lg li
 {
 	margin-top: $base-size * .75;
 	margin-bottom: $base-size * .75;
@@ -72,5 +72,10 @@
 
 .text-bold      { font-weight: bold; }
 .text-italic    { font-style: italic; }
+.text-left      { text-align: left; }
+.text-right     { text-align: right; }
 .text-center    { text-align: center; }
-.text-caps      { text-transform: center; }
+.text-justify   { text-align: justify; }
+.text-lowercase { text-transform: lowercase; }
+.text-uppercase { text-transform: uppercase; }
+.text-caps      { text-transform: capitalize; }
