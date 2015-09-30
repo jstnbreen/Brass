@@ -7,7 +7,15 @@
 .h3             { font-size: $base-size * 2; }
 .h4             { font-size: $base-size * 1.5; }
 .h5             { font-size: $base-size; }
-.h6             { font-size: $base-size * .875; }
+.h6             { font-size: $base-size * .75; }
+
+//  Secondary text from BS3
+//  lots of code though...
+
+//  Keep class name as .heading?
+//  or shorter name...
+
+//  How to handle additional m-auto classes
 
 .heading
 {
@@ -79,9 +87,5 @@
 .text-lowercase { text-transform: lowercase; }
 .text-uppercase { text-transform: uppercase; }
 .text-caps      { text-transform: capitalize; }
+.text-dark      { color: #333; }
 .text-muted     { color: #777; }
-
-//  #333 - opposite of muted?
-
-//  Secondary text from BS3
-//  lots of code though...
