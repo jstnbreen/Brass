@@ -1,5 +1,6 @@
-/* Typography
---------------- */
+/*
+	Typography
+*/
 
 
 .h1             { font-size: $base-size * 3; }
@@ -16,6 +17,9 @@
 //  or shorter name...
 
 //  How to handle additional m-auto classes
+
+//  May want to include 4em in the positioning
+//  This should affect the typography as well (headings)?
 
 .heading
 {
