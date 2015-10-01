@@ -3,6 +3,8 @@
 */
 
 
+.h00            { font-size: $base-size * 4; }
+.h0             { font-size: $base-size * 3.5; }
 .h1             { font-size: $base-size * 3; }
 .h2             { font-size: $base-size * 2.5; }
 .h3             { font-size: $base-size * 2; }
@@ -10,16 +12,7 @@
 .h5             { font-size: $base-size; }
 .h6             { font-size: $base-size * .75; }
 
-//  Secondary text from BS3
-//  lots of code though...
-
-//  Keep class name as .heading?
-//  or shorter name...
-
-//  How to handle additional m-auto classes
-
-//  May want to include 4em in the positioning
-//  This should affect the typography as well (headings)?
+//  Secondary text - and new name for .heading
 
 .heading
 {
