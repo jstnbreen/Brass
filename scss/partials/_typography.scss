@@ -14,10 +14,6 @@
 
 //  New name for .heading
 
-//  Secondary text
-
-//  Line-heights
-
 .heading
 {
 	margin-top: $base-size * 1.5;
@@ -29,6 +25,10 @@
 	margin-top: $base-size;
 	margin-bottom: $base-size * 1.5;
 }
+
+//  Secondary text
+
+//  Indents
 
 .ul
 {
@@ -78,6 +78,8 @@
 	margin-top: $base-size * .75;
 	margin-bottom: $base-size * .75;
 }
+
+//  Line-heights too
 
 .text-bold      { font-weight: bold; }
 .text-italic    { font-style: italic; }
