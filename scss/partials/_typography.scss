@@ -12,6 +12,9 @@
 .h5             { font-size: $base-size; }
 .h6             { font-size: $base-size * .75; }
 
+.text-big       { font-size: $base-size * 1.25; }
+.text-small     { font-size: $base-size * 1.25; }
+
 .heading
 {
 	margin-top: $base-size * 1.5;
@@ -26,13 +29,20 @@
 
 //  Indents
 
-//  1.25em
-
-//  .hr
-
 //  Secondary text
 
 //  Line-heights
+
+.hr
+{
+	margin-top: $base-size;
+	margin-bottom: $base-size;
+	background: none;
+	border: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0, 0, 0, .1);
+}
 
 .ul
 {
