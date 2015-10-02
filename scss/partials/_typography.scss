@@ -12,8 +12,6 @@
 .h5             { font-size: $base-size; }
 .h6             { font-size: $base-size * .75; }
 
-//  New name for .heading
-
 .heading
 {
 	margin-top: $base-size * 1.5;
@@ -26,9 +24,15 @@
 	margin-bottom: $base-size * 1.5;
 }
 
+//  Indents
+
+//  1.25em
+
+//  .hr
+
 //  Secondary text
 
-//  Indents
+//  Line-heights
 
 .ul
 {
@@ -78,8 +82,6 @@
 	margin-top: $base-size * .75;
 	margin-bottom: $base-size * .75;
 }
-
-//  Line-heights too
 
 .text-bold      { font-weight: bold; }
 .text-italic    { font-style: italic; }
