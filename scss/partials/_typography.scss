@@ -31,20 +31,6 @@
 
 //  .small
 
-//  Line-heights
-
-//  Indents (.5em is good, 1em is large)
-
-.hr
-{
-	margin-top: $base-size;
-	margin-bottom: $base-size;
-	height: 0;
-	background: none;
-	border: 0;
-	border-bottom: 1px solid rgba(0, 0, 0, .1);
-}
-
 .ul
 {
 	margin: $base-size;
@@ -92,6 +78,16 @@
 {
 	padding: 0;
 	list-style: none !important;
+}
+
+.indent
+{
+	padding-left: $base-size * .5;
+}
+
+.indent-lg
+{
+	padding-left: $base-size;
 }
 
 .text-bold      { font-weight: bold; }
