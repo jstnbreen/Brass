@@ -33,22 +33,17 @@
 
 //  Line-heights
 
-//  ul-lg for ul-inline
-
 //  Indents (.5em is good, 1em is large)
 
 .hr
 {
 	margin-top: $base-size;
 	margin-bottom: $base-size;
+	height: 0;
 	background: none;
 	border: 0;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: rgba(0, 0, 0, .1);
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
-
-//  ^nah
 
 .ul
 {
@@ -60,6 +55,24 @@
 			font-size: .875em;
 		}
 	}
+}
+
+.ul-sm li
+{
+	margin-top: $base-size * .25;
+	margin-bottom: $base-size * .25;
+}
+
+.ul-md li
+{
+	margin-top: $base-size * .5;
+	margin-bottom: $base-size * .5;
+}
+
+.ul-lg li
+{
+	margin-top: $base-size * .75;
+	margin-bottom: $base-size * .75;
 }
 
 .ul-inline
@@ -79,24 +92,6 @@
 {
 	padding: 0;
 	list-style: none !important;
-}
-
-.ul-sm li
-{
-	margin-top: $base-size * .25;
-	margin-bottom: $base-size * .25;
-}
-
-.ul-md li
-{
-	margin-top: $base-size * .5;
-	margin-bottom: $base-size * .5;
-}
-
-.ul-lg li
-{
-	margin-top: $base-size * .75;
-	margin-bottom: $base-size * .75;
 }
 
 .text-bold      { font-weight: bold; }
