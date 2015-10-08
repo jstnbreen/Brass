@@ -12,8 +12,8 @@
 .h5             { font-size: $base-size; }
 .h6             { font-size: $base-size * .75; }
 
-.text-big       { font-size: $base-size * 1.25; }
-.text-small     { font-size: $base-size * 1.25; }
+.lead           { font-size: $base-size * 1.25; }
+.small          { font-size: $base-size * .8; }
 
 .heading
 {
@@ -21,15 +21,11 @@
 	margin-bottom: $base-size;
 }
 
-.heading-inverse
+.heading-i
 {
 	margin-top: $base-size;
 	margin-bottom: $base-size * 1.5;
 }
-
-//  Secondary text
-
-//  .small
 
 .ul
 {
@@ -74,7 +70,7 @@
 	display: inline-block;
 }
 
-.ul-unstyled
+.ul-unstyle
 {
 	padding: 0;
 	list-style: none !important;
@@ -96,8 +92,8 @@
 .text-right     { text-align: right; }
 .text-center    { text-align: center; }
 .text-justify   { text-align: justify; }
-.text-lowercase { text-transform: lowercase; }
-.text-uppercase { text-transform: uppercase; }
+.text-lower     { text-transform: lowercase; }
+.text-upper     { text-transform: uppercase; }
 .text-caps      { text-transform: capitalize; }
 .text-dark      { color: #333; }
 .text-muted     { color: #777; }
