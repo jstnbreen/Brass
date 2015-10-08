@@ -3,7 +3,14 @@
 */
 
 
-.hide           { display: none !important; }
+.cf:after
+{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.dn             { display: none !important; }
 .db             { display: block; }
 .dib            { display: inline-block; }
 .di             { display: inline; }
@@ -17,10 +24,3 @@
 
 .full           { width: 100%; }
 .fit            { max-width: 100% !important; }
-
-.cf:after
-{
-	content: '';
-	display: table;
-	clear: both;
-}
