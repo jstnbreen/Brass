@@ -1,140 +1,134 @@
-/*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-.visible-xs,
-.visible-sm,
-.visible-md,
-.visible-lg,
-.visible-xs-block,
-.visible-xs-inline,
-.visible-xs-inline-block,
-.visible-sm-block,
-.visible-sm-inline,
-.visible-sm-inline-block,
-.visible-md-block,
-.visible-md-inline,
-.visible-md-inline-block,
-.visible-lg-block,
-.visible-lg-inline,
-.visible-lg-inline-block {
+.show-xs,
+.show-sm,
+.show-md,
+.show-lg,
+.show-xs-block,
+.show-xs-inline,
+.show-xs-inline-block,
+.show-sm-block,
+.show-sm-inline,
+.show-sm-inline-block,
+.show-md-block,
+.show-md-inline,
+.show-md-inline-block,
+.show-lg-block,
+.show-lg-inline,
+.show-lg-inline-block {
   display: none !important;
 }
 @media (max-width: 767px) {
-  .visible-xs {
+  .show-xs {
     display: block !important;
   }
-  table.visible-xs {
+  table.show-xs {
     display: table;
   }
-  tr.visible-xs {
+  tr.show-xs {
     display: table-row !important;
   }
-  th.visible-xs,
-  td.visible-xs {
+  th.show-xs,
+  td.show-xs {
     display: table-cell !important;
   }
-  .visible-xs-block {
+  .show-xs-block {
     display: block !important;
   }
-  .visible-xs-inline {
+  .show-xs-inline {
     display: inline !important;
   }
-  .visible-xs-inline-block {
+  .show-xs-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .visible-sm {
+  .show-sm {
     display: block !important;
   }
-  table.visible-sm {
+  table.show-sm {
     display: table;
   }
-  tr.visible-sm {
+  tr.show-sm {
     display: table-row !important;
   }
-  th.visible-sm,
-  td.visible-sm {
+  th.show-sm,
+  td.show-sm {
     display: table-cell !important;
   }
-  .visible-sm-block {
+  .show-sm-block {
     display: block !important;
   }
-  .visible-sm-inline {
+  .show-sm-inline {
     display: inline !important;
   }
-  .visible-sm-inline-block {
+  .show-sm-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .visible-md {
+  .show-md {
     display: block !important;
   }
-  table.visible-md {
+  table.show-md {
     display: table;
   }
-  tr.visible-md {
+  tr.show-md {
     display: table-row !important;
   }
-  th.visible-md,
-  td.visible-md {
+  th.show-md,
+  td.show-md {
     display: table-cell !important;
   }
-  .visible-md-block {
+  .show-md-block {
     display: block !important;
   }
-  .visible-md-inline {
+  .show-md-inline {
     display: inline !important;
   }
-  .visible-md-inline-block {
+  .show-md-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 1200px) {
-  .visible-lg {
+  .show-lg {
     display: block !important;
   }
-  table.visible-lg {
+  table.show-lg {
     display: table;
   }
-  tr.visible-lg {
+  tr.show-lg {
     display: table-row !important;
   }
-  th.visible-lg,
-  td.visible-lg {
+  th.show-lg,
+  td.show-lg {
     display: table-cell !important;
   }
-  .visible-lg-block {
+  .show-lg-block {
     display: block !important;
   }
-  .visible-lg-inline {
+  .show-lg-inline {
     display: inline !important;
   }
-  .visible-lg-inline-block {
+  .show-lg-inline-block {
     display: inline-block !important;
   }
 }
 @media (max-width: 767px) {
-  .hidden-xs {
+  .hide-xs {
     display: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .hidden-sm {
+  .hide-sm {
     display: none !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .hidden-md {
+  .hide-md {
     display: none !important;
   }
 }
 @media (min-width: 1200px) {
-  .hidden-lg {
+  .hide-lg {
     display: none !important;
   }
 }
