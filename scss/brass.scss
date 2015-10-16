@@ -9,12 +9,34 @@ $base-size: 16px;
 
 
 /*
+	Responsive
+*/
+
+
+$xs-max: 47.9375em;
+
+$sm-min: 48em;
+
+$sm-max: 61.9375em;
+
+$md-min: 62em;
+
+$md-max: 74.9375em;
+
+$lg-min: 75em;
+
+
+
+
+/*
 	Partials
 */
 
 
-@import "partials/typography";
+@import "partials/brass_typography";
 
-@import "partials/box-model";
+@import "partials/brass_grid";
 
-@import "partials/positioning";
+@import "partials/brass_box-model";
+
+@import "partials/brass_positioning";
