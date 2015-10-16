@@ -160,10 +160,10 @@
   padding-left: 15px;
 }
 .row {
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: 0 auto;
+  max-width: ($base-size * 60) + ($base-size * 2);
 }
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+.xs-c1, .xs-c2, .xs-c3, .xs-c4, .xs-c5, .xs-c6, .xs-c7, .xs-c8, .xs-c9, .xs-c10, .xs-c11, .xs-c12, .sm-c1, .sm-c2, .sm-c3, .sm-c4, .sm-c5, .sm-c6, .sm-c7, .sm-c8, .sm-c9, .sm-c10, .sm-c11, .sm-c12, .md-c1, .md-c2, .md-c3, .md-c4, .md-c5, .md-c6, .md-c7, .md-c8, .md-c9, .md-c10, .md-c11, .md-c12, .lg-c1, .lg-c2, .lg-c3, .lg-c4, .lg-c5, .lg-c6, .lg-c7, .lg-c8, .lg-c9, .lg-c10, .lg-c11, .lg-c12 {
   padding-right: 15px;
   padding-left: 15px;
   min-height: 1px;
@@ -804,28 +804,31 @@
 .clearfix,
 .clearfix:before,
 .clearfix:after,
-.container:before,
-.container:after,
-.container-fluid:before,
-.container-fluid:after,
 .row:before,
-.row:after {
+.row:after,
+.row-fluid:before,
+.row-fluid:after {
   content: '';
   display: table;
 }
 .clearfix:after,
-.container:after,
-.container-fluid:after,
-.row:after {
+.row:after,
+.row-fluid:after {
   clear: both;
 }
 
-.container,
-.container-fluid,
-.container:before,
-.container-fluid:before,
-.container:after,
-.container-fluid:after {
+.row,
+.row:before,
+.row:after,
+.row *,
+.row *:before,
+.row *:after,
+.row-fluid,
+.row-fluid:before,
+.row-fluid:after,
+.row-fluid *,
+.row-fluid *:before,
+.row-fluid *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
