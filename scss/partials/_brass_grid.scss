@@ -1,21 +1,22 @@
-.show-xs,
-.show-sm,
-.show-md,
-.show-lg,
-.show-xs-block,
-.show-xs-inline,
-.show-xs-inline-block,
-.show-sm-block,
-.show-sm-inline,
-.show-sm-inline-block,
-.show-md-block,
-.show-md-inline,
-.show-md-inline-block,
-.show-lg-block,
-.show-lg-inline,
-.show-lg-inline-block {
+.show-xs-db,
+.show-xs-di,
+.show-xs-dib,
+.show-sm-db,
+.show-sm-di,
+.show-sm-dib,
+.show-md-db,
+.show-md-di,
+.show-md-dib,
+.show-lg-db,
+.show-lg-di,
+.show-lg-dib {
   display: none !important;
 }
+
+//  Read Migrating to v4
+//  Don't need show classes
+//  Just hide where not needed
+
 @media (max-width: $xs-max) {
   .show-xs {
     display: block !important;

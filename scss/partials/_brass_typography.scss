@@ -43,6 +43,9 @@
 	}
 }
 
+//  Padding left indent for lists 1em
+//  .ul .ul should be padding-left: 0 if so
+
 .ul-sm li
 {
 	margin-top: $base-size * .25;
