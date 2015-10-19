@@ -14,15 +14,10 @@ $base-size: 16px;
 
 
 $xs-max: 47.9375em;
-
 $sm-min: 48em;
-
 $sm-max: 61.9375em;
-
 $md-min: 62em;
-
 $md-max: 74.9375em;
-
 $lg-min: 75em;
 
 
@@ -34,9 +29,6 @@ $lg-min: 75em;
 
 
 @import "partials/brass_typography";
-
 @import "partials/brass_grid";
-
 @import "partials/brass_box-model";
-
 @import "partials/brass_positioning";
