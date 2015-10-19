@@ -12,8 +12,6 @@
 .h5             { font-size: $base-size * 1.25; }
 .h6             { font-size: $base-size; }
 
-.small          { font-size: $base-size * .8; }
-
 .heading
 {
 	margin-top: $base-size * 1.5;
@@ -81,16 +79,12 @@
 	list-style: none !important;
 }
 
-.text-light     { font-weight: 300; }
-.text-bold      { font-weight: 700; }
-.text-normal    { font-weight: normal; }
-.text-italic    { font-style: italic; }
+.small          { font-size: $base-size * .8; }
+.italic         { font-style: italic; }
+.normal         { font-weight: normal; }
+.strong         { font-weight: 700; }
+
 .text-left      { text-align: left; }
 .text-right     { text-align: right; }
 .text-center    { text-align: center; }
 .text-justify   { text-align: justify; }
-.text-lower     { text-transform: lowercase; }
-.text-upper     { text-transform: uppercase; }
-.text-caps      { text-transform: capitalize; }
-.text-dark      { color: #333; }
-.text-muted     { color: #777; }
