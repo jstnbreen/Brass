@@ -29,10 +29,8 @@
 .ul
 {
 	margin: $base-size;
-	padding-left: $base-size;
 	.ul {
 		margin: $base-size $base-size * .875;
-		padding-left: 0;
 	}
 	li {
 		margin: $base-size * .5 0;
