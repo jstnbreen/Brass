@@ -39,38 +39,15 @@
 	}
 }
 
-//  Padding left indent for lists 1em
-//  .ul .ul should be padding-left: 0 if so
-
-.ul-sm li
-{
-	margin-top: $base-size * .25;
-	margin-bottom: $base-size * .25;
-}
-
-.ul-md li
-{
-	margin-top: $base-size * .5;
-	margin-bottom: $base-size * .5;
-}
-
-.ul-lg li
-{
-	margin-top: $base-size * .75;
-	margin-bottom: $base-size * .75;
-}
-
 .ul-inline
 {
 	margin-left: -$base-size * .5;
 	padding: 0;
-}
-
-.ul-inline > li
-{
-	padding-right: $base-size * .5;
-	padding-left: $base-size * .5;
-	display: inline-block;
+	& > li {
+		padding-right: $base-size * .5;
+		padding-left: $base-size * .5;
+		display: inline-block;
+	}
 }
 
 .ul-unstyle
@@ -79,10 +56,16 @@
 	list-style: none !important;
 }
 
+.ul-sm li           { margin: $base-size * .25 0; }
+.ul-md li           { margin: $base-size * .5 0; }
+.ul-lg li           { margin: $base-size * .75 0; }
+
+.indent             { padding-left: $base-size; }
+
 .small          { font-size: $base-size * .8; }
 .italic         { font-style: italic; }
 .normal         { font-weight: normal; }
-.strong         { font-weight: 700; }
+.strong         { font-weight: bold; }
 
 .text-left      { text-align: left; }
 .text-right     { text-align: right; }
