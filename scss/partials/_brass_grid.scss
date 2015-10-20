@@ -24,23 +24,19 @@
 	margin: 0 auto;
 	width: 100%;
 	max-width: $base-size * 64;
+	.row, .row-fluid {
+		margin: 0 -$base-size;
+	}
 }
 
 .row-fluid
 {
 	margin: 0 auto;
 	width: 100%;
+	.row, .row-fluid {
+		margin: 0 -$base-size;
+	}
 }
-
-/*
-.xs-c1, .xs-c2, .xs-c3, .xs-c4, .xs-c5, .xs-c6, .xs-c7, .xs-c8, .xs-c9, .xs-c10, .xs-c11, .xs-c12, .sm-c1, .sm-c2, .sm-c3, .sm-c4, .sm-c5, .sm-c6, .sm-c7, .sm-c8, .sm-c9, .sm-c10, .sm-c11, .sm-c12, .md-c1, .md-c2, .md-c3, .md-c4, .md-c5, .md-c6, .md-c7, .md-c8, .md-c9, .md-c10, .md-c11, .md-c12, .lg-c1, .lg-c2, .lg-c3, .lg-c4, .lg-c5, .lg-c6, .lg-c7, .lg-c8, .lg-c9, .lg-c10, .lg-c11, .lg-c12 {
-	padding-right: $base-size;
-	padding-left: $base-size;
-	min-height: 1px;
-	float: left;
-	position: relative;
-}
-*/
 
 [class*="xs-c"],
 [class*="sm-c"],
@@ -325,6 +321,8 @@
 .row-fluid:after {
 	clear: both;
 }
+
+//  need for .row .row?
 
 .row,
 .row:before,
