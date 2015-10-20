@@ -42,10 +42,10 @@
 }
 */
 
+[class^="xs-c"],
 [class^="sm-c"],
-[class^="sm-c"],
-[class^="sm-c"],
-[class^="sm-c"]
+[class^="md-c"],
+[class^="lg-c"]
 {
 	padding-right: $base-size;
 	padding-left: $base-size;
