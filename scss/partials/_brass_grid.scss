@@ -56,9 +56,9 @@
 .xs-c7              { width: 58.333333%; }
 .xs-c8              { width: 66.666667%; }
 .xs-c9              { width: 75%; }
-.xs-c10             { width: 83.333333% ;}
-.xs-c11             { width: 91.666667% ;}
-.xs-c12             { width: 100% ;}
+.xs-c10             { width: 83.333333%;}
+.xs-c11             { width: 91.666667%;}
+.xs-c12             { width: 100%;}
 
 .xs-pull-0          { right: auto; }
 .xs-pull-1          { right: 8.333333%; }
@@ -322,8 +322,6 @@
 .row-fluid:after {
 	clear: both;
 }
-
-//  need for .row .row?
 
 .row,
 .row:before,
