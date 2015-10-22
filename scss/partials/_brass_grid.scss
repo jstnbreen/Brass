@@ -23,6 +23,7 @@
 	max-width: $base-size * 64;
 	.row, .row-fluid {
 		margin: 0 (-$base-size);
+		width: auto;
 	}
 }
 
