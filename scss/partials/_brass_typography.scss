@@ -31,9 +31,9 @@
 		margin: $base-size ($base-size * .875);
 	}
 	li {
-		margin: $base-size * .5 0;
+		margin: ($base-size * .5) 0;
 		li {
-			margin: $base-size * .5 0;
+			margin: ($base-size * .5) 0;
 			font-size: .875em;
 		}
 	}
@@ -41,7 +41,7 @@
 
 .ul-inline
 {
-	margin-left: -$base-size * .5;
+	margin-left: (-$base-size) * .5;
 	padding: 0;
 	& > li {
 		padding-right: $base-size * .5;
