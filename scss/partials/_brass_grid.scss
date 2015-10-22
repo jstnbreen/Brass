@@ -111,7 +111,7 @@
 	display: table;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $sm-min) {
 	[class*="sm-c"] { float: left; }
 
 	.sm-c1          { width: 8.333333%; }
@@ -178,7 +178,7 @@
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: $md-min) {
 	[class*="md-c"] { float: left; }
 
 	.md-c1          { width: 8.333333%; }
@@ -245,7 +245,7 @@
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $lg-min) {
 	[class*="lg-c"] { float: left; }
 
 	.lg-c1          { width: 8.333333%; }
