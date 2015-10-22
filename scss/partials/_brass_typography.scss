@@ -28,7 +28,7 @@
 {
 	margin: $base-size;
 	.ul {
-		margin: $base-size $base-size * .875;
+		margin: $base-size ($base-size * .875);
 	}
 	li {
 		margin: $base-size * .5 0;
