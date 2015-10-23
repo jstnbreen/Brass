@@ -50,7 +50,7 @@
 .table-condensed > tbody > tr > td,
 .table-condensed > tfoot > tr > td
 {
-	padding: 5px;
+	padding: $base-size * .5;
 }
 
 .table-bordered
@@ -129,7 +129,7 @@
 	.table-responsive
 	{
 		width: 100%;
-		margin-bottom: 15px;
+		// margin-bottom: 15px;
 		overflow-y: hidden;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 		border: 1px solid #dddddd;
