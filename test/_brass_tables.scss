@@ -16,16 +16,14 @@
 .table > tfoot > tr > td
 {
 	padding: $base-size;
-	// padding: 8px;
-	// line-height: 1.42857143;
 	vertical-align: top;
 	border-top: 1px solid #dddddd;
 }
 
 .table > thead > tr > th
 {
-	vertical-align: bottom;
 	border-bottom: 2px solid #dddddd;
+	vertical-align: bottom;
 }
 
 .table > caption + thead > tr:first-child > th,
@@ -125,7 +123,7 @@
 	min-height: 0.01%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $xs-max) {
 	.table-responsive
 	{
 		width: 100%;
@@ -185,7 +183,9 @@
 }
 
 /*
+
 .table .table {
 	background-color: #ffffff;
 }
+
 */
