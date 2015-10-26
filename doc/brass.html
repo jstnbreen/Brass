@@ -5,8 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-	<link rel="stylesheet" href="https://rawgit.com/jstnbreen/Brass/master/css/brass.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"> -->
+
+	<!-- <link rel="stylesheet" href="https://rawgit.com/jstnbreen/Brass/master/css/brass.css"> -->
+
+	<link rel="stylesheet" href="../css/brass.css">
 
 	<style>
 		body {margin: 0; font-family: Helvetica, Arial, sans-serif;}
@@ -19,12 +22,12 @@
 <body>
 	<div class="row">
 		<div class="xs-c4 xs-center">
-			<img class="full my-4" src="brass-logo.png">
+			<img class="full my-4" src="brass-logo.jpg">
 		</div>
 	</div>
 	<div class="row">
-		<div class="xs-c12 md-c8">
-			<h1 class="h1 heading">Grid</h1>
+		<div class="xs-c12 sm-c8 md-c7">
+			<h1 class="h3 heading">Grid</h1>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eveniet similique temporibus omnis accusamus sapiente obcaecati repellat tempore eligendi laudantium consequatur, sunt magni eaque dolorum libero. Harum fugiat, impedit earum.
 			</p>
@@ -32,7 +35,7 @@
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt tempora nesciunt nulla, nam, doloribus ipsa mollitia quia repudiandae, explicabo vel consectetur dolor voluptates reiciendis sint perspiciatis porro maiores velit.
 			</p>
 		</div>
-		<div class="xs-c6 md-c4">
+		<div class="xs-c6 xs-center sm-c4 md-c4 md-offset-1">
 			<img class="fit my-3" src="http://placehold.it/350x150?text=[img]">
 			<!-- <img class="fit my-3" src="http://placecage.com/c/420/300"> -->
 		</div>
@@ -108,15 +111,19 @@
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, expedita quisquam consequatur non vero blanditiis laboriosam placeat! Dolorum iusto, soluta, impedit, amet voluptatum dolores molestias aut eligendi assumenda fugit blanditiis!
 			</p>
 		</div>
-		<div class="sm-c3 md-c4 md-center">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, expedita quisquam consequatur non vero blanditiis laboriosam placeat! Dolorum iusto, soluta, impedit, amet voluptatum dolores molestias aut eligendi assumenda fugit blanditiis!
-			</p>
-		</div>
-		<div class="sm-c3 md-c4 md-center">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, expedita quisquam consequatur non vero blanditiis laboriosam placeat! Dolorum iusto, soluta, impedit, amet voluptatum dolores molestias aut eligendi assumenda fugit blanditiis!
-			</p>
+		<div class="md-c9 md-center">
+			<div class="row">
+				<div class="sm-c3 md-c4 md-center">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, expedita quisquam consequatur non vero blanditiis laboriosam placeat! Dolorum iusto, soluta, impedit, amet voluptatum dolores molestias aut eligendi assumenda fugit blanditiis!
+					</p>
+				</div>
+				<div class="sm-c3 md-c4 md-center">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, expedita quisquam consequatur non vero blanditiis laboriosam placeat! Dolorum iusto, soluta, impedit, amet voluptatum dolores molestias aut eligendi assumenda fugit blanditiis!
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -150,14 +157,14 @@
 	</div>
 
 	<div class="row">
-		<div class="sm-c12">
-			<table class="table">
+		<div class="xs-c12">
+			<table class="table table-sm">
 				<thead>
 					<tr>
 						<th>#</th>
 						<th>Username</th>
 						<th>Email</th>
-						<th>Longer title with a line break<br>inside it but just display user's zipcode</th>
+						<th>Zipcode</th>
 					</tr>
 				</thead>
 				<tbody>
