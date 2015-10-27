@@ -36,6 +36,14 @@
 	}
 }
 
+.row-spacing > [class*="xs-c"],
+.row-spacing > [class*="sm-c"],
+.row-spacing > [class*="md-c"],
+.row-spacing > [class*="lg-c"]
+{
+	margin-bottom: $base-size;
+}
+
 [class*="xs-c"],
 [class*="sm-c"],
 [class*="md-c"],
