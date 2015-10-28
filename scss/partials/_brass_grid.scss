@@ -44,6 +44,14 @@
 	margin-bottom: $base-size;
 }
 
+.spacing-test > [class*="xs-c"],
+.spacing-test > [class*="sm-c"],
+.spacing-test > [class*="md-c"],
+.spacing-test > [class*="lg-c"]
+{
+	margin-bottom: $base-size * .75;
+}
+
 [class*="xs-c"],
 [class*="sm-c"],
 [class*="md-c"],
