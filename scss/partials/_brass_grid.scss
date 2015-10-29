@@ -37,7 +37,8 @@
 	}
 }
 
-/* Simplify
+/* Simplify rows
+
 .row, .row-fluid
 {
 	margin: 0 auto;
@@ -52,6 +53,7 @@
 {
 	max-width: $base-size * 64;
 }
+
 */
 
 .spacing > [class*="xs-c"],
@@ -62,12 +64,20 @@
 	margin-bottom: $base-size;
 }
 
-.spacing-test > [class*="xs-c"],
-.spacing-test > [class*="sm-c"],
-.spacing-test > [class*="md-c"],
-.spacing-test > [class*="lg-c"]
+.spacing-md > [class*="xs-c"],
+.spacing-md > [class*="sm-c"],
+.spacing-md > [class*="md-c"],
+.spacing-md > [class*="lg-c"]
 {
 	margin-bottom: $base-size * .75;
+}
+
+.spacing-sm > [class*="xs-c"],
+.spacing-sm > [class*="sm-c"],
+.spacing-sm > [class*="md-c"],
+.spacing-sm > [class*="lg-c"]
+{
+	margin-bottom: $base-size * .5;
 }
 
 [class*="xs-c"],
