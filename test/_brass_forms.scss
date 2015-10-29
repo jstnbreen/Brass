@@ -47,16 +47,17 @@ label
 {
 	margin-bottom: $base-size * .375;
 	font-size: $base-size * .875;
+	line-height: 1;
 	display: inline-block;
 }
 
-.field
+.form .field
 {
 	width: 100%;
 	height: $base-size * 2;
 	padding: ($base-size * .375) ($base-size * .75);
 	font-size: $base-size * .875;
-	line-height: normal;
+	// line-height: normal;
 	border: 1px solid #ccc;
 	border-radius: $base-size * .25;
 	display: block;
@@ -88,6 +89,7 @@ label
 	line-height: 1.3333333;
 	border-radius: 6px;
 }
+
 .form-group-lg select.form-control {
 	height: 46px;
 	line-height: 46px;
