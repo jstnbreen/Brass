@@ -204,39 +204,39 @@
 
 	<div class="row">
 		<div class="xs-c11 xs-center sm-c9 sm-center">
-			<form class="form my-2" action="#" method="post">
-				<div class="row spacing-md">
+			<form class="form my-2">
+				<div class="row">
 					<div class="xs-c12 sm-c6">
 						<label>First Name</label>
-						<input class="field" name="firstname" type="text">
+						<input class="field-lg" name="firstname" type="text">
 					</div>
 					<div class="xs-c12 sm-c6">
 						<label>Last Name</label>
-						<input class="field" name="lastname" type="text">
+						<input class="field-lg" name="lastname" type="text">
 					</div>
 					<div class="xs-c12 sm-c6">
 						<label>Email</label>
-						<input class="field" name="email" type="text">
+						<input class="field-lg" name="email" type="text">
 					</div>
 					<div class="xs-c12 sm-c6">
 						<label>Phone</label>
-						<input class="field" name="phone" type="text">
+						<input class="field-lg" name="phone" type="text">
 					</div>
 					<div class="xs-c12 sm-c6">
 						<label>Address</label>
-						<input class="field" name="address" type="text">
+						<input class="field-lg" name="address" type="text">
 					</div>
 					<div class="xs-c12 sm-c6">
 						<label>Address 2</label>
-						<input class="field" name="address2" type="text">
+						<input class="field-lg" name="address2" type="text">
 					</div>
 					<div class="xs-c12 sm-c6">
 						<label>City</label>
-						<input class="field" name="city" type="text">
+						<input class="field-lg" name="city" type="text">
 					</div>
 					<div class="xs-c12 sm-c6">
 						<label>State</label>
-						<select class="field" name="state" type="text">
+						<select class="field-lg" name="state" type="text">
 							<option value="" disabled selected>Select</option>
 							<option>MA</option>
 							<option>RI</option>
@@ -244,9 +244,64 @@
 							<option>NJ</option>
 						</select>
 					</div>
+					<div class="xs-c12 sm-c6">
+						<label>Membership</label>
+						<div class="row spacing-sm">
+							<div class="xs-c12 sm-c4">
+								<label>
+									<input class="rdo" name="membership[]" type="radio" value="Basic">Basic
+								</label>
+							</div>
+							<div class="xs-c12 sm-c4">
+								<label>
+									<input class="rdo" name="membership[]" type="radio" value="Plus">Plus
+								</label>
+							</div>
+							<div class="xs-c12 sm-c4">
+								<label>
+									<input class="rdo" name="membership[]" type="radio" value="Premier">Premier
+								</label>
+							</div>
+							<div class="xs-c12 sm-c4">
+								<label>
+									<input class="rdo" name="membership[]" type="radio" value="Basic Motorcycle">Basic Motorcycle
+								</label>
+							</div>
+							<div class="xs-c12 sm-c4">
+								<label>
+									<input class="rdo" name="membership[]" type="radio" value="Plus Motorcycle">Plus Motorcycle
+								</label>
+							</div>
+							<div class="xs-c12 sm-c4">
+								<label>
+									<input class="rdo" name="membership[]" type="radio" value="Premier Motorcycle">Premier Motorcycle
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="xs-c12 sm-c6">
+						<label>Services</label>
+						<div class="row spacing-sm">
+							<div class="xs-c12 sm-c4">
+								<label>
+									<input class="chk" name="services[]" type="checkbox" value="Insurance">Insurance
+								</label>
+							</div>
+							<div class="xs-c12 sm-c4">
+								<label>
+									<input class="chk" name="services[]" type="checkbox" value="Travel">Travel
+								</label>
+							</div>
+							<div class="xs-c12 sm-c4">
+								<label>
+									<input class="chk" name="services[]" type="checkbox" value="Emergency Roadside Assistance Services">Emergency Roadside Assistance Services
+								</label>
+							</div>
+						</div>
+					</div>
 					<div class="xs-c12 sm-c7 sm-center">
 						<label>Message</label>
-						<textarea class="field" name="message" style="height:96px;"></textarea>
+						<textarea class="field-lg" name="message" style="height:96px;"></textarea>
 					</div>
 				</div>
 
