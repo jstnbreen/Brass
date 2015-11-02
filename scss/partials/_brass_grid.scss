@@ -20,9 +20,9 @@
 {
 	margin: 0 auto;
 	width: 100%;
-	max-width: $base-size * 64;
+	max-width: $base * 64;
 	.row, .row-fluid {
-		margin: 0 (-$base-size);
+		margin: 0 (-$base);
 		width: auto;
 	}
 }
@@ -32,7 +32,7 @@
 	margin: 0 auto;
 	width: 100%;
 	.row, .row-fluid {
-		margin: 0 (-$base-size);
+		margin: 0 (-$base);
 		width: auto;
 	}
 }
@@ -44,14 +44,14 @@
 	margin: 0 auto;
 	width: 100%;
 	.row, .row-fluid {
-		margin: 0 (-$base-size);
+		margin: 0 (-$base);
 		width: auto;
 	}
 }
 
 .row
 {
-	max-width: $base-size * 64;
+	max-width: $base * 64;
 }
 
 */
@@ -61,23 +61,7 @@
 .spacing > [class*="md-c"],
 .spacing > [class*="lg-c"]
 {
-	margin-bottom: $base-size;
-}
-
-.spacing-md > [class*="xs-c"],
-.spacing-md > [class*="sm-c"],
-.spacing-md > [class*="md-c"],
-.spacing-md > [class*="lg-c"]
-{
-	margin-bottom: $base-size * .75;
-}
-
-.spacing-sm > [class*="xs-c"],
-.spacing-sm > [class*="sm-c"],
-.spacing-sm > [class*="md-c"],
-.spacing-sm > [class*="lg-c"]
-{
-	margin-bottom: $base-size * .5;
+	margin-bottom: $base;
 }
 
 [class*="xs-c"],
@@ -85,8 +69,8 @@
 [class*="md-c"],
 [class*="lg-c"]
 {
-	padding-right: $base-size;
-	padding-left: $base-size;
+	padding-right: $base;
+	padding-left: $base;
 	min-height: 1px;
 	float: left;
 	position: relative;

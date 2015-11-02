@@ -4,7 +4,7 @@
 	max-width: 100%;
 	background-color: transparent;
 	th, td {
-		padding: $base-size * .75;
+		padding: $base * .75;
 	}
 	th {
 		text-align: left;
@@ -14,19 +14,19 @@
 .table-sm th,
 .table-sm td
 {
-	padding: $base-size * .5;
+	padding: $base * .5;
 }
 
 .table-md th,
 .table-md td
 {
-	padding: $base-size * .75;
+	padding: $base * .75;
 }
 
 .table-lg th,
 .table-lg td
 {
-	padding: $base-size;
+	padding: $base;
 }
 
 @media screen and (max-width: $xs-max) {

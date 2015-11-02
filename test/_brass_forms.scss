@@ -54,20 +54,20 @@
 .form
 {
 	label {
-		margin-bottom: $base-size * .375;
-		font-size: $base-size * .875;
+		margin-bottom: $base * .375;
+		font-size: $base * .875;
 		line-height: 1;
 		display: block;
 	}
 	[class*="field"] {
-		margin-bottom: $base-size * .75;
-		padding: ($base-size * .375) ($base-size * .75);
+		margin-bottom: $base * .75;
+		padding: ($base * .375) ($base * .75);
 		width: 100%;
-		height: $base-size * 2;
-		font-size: $base-size * .875;
+		height: $base * 2;
+		font-size: $base * .875;
 		// line-height: normal;
 		border: 1px solid #ccc;
-		border-radius: $base-size * .25;
+		border-radius: $base * .25;
 		display: block;
 		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
 		box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -81,9 +81,7 @@
 		}
 	}
 	.field-lg {
-		margin-bottom: $base-size * 1.25;
-		height: $base-size * 3;
+		margin-bottom: $base * 1.25;
+		height: $base * 3;
 	}
 }
-
-//  ^ Eh?

@@ -3,7 +3,7 @@
 */
 
 
-$base-size: 16px;
+$base: 16px;
 
 
 
@@ -31,7 +31,7 @@ $lg-min: 75em;
 @import "partials/brass_typography";
 @import "partials/brass_grid";
 @import "partials/brass_box-model";
+@import "partials/brass_tables";
 @import "partials/brass_positioning";
 
-@import "../test/brass_tables";
 @import "../test/brass_forms";

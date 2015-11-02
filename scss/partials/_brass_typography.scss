@@ -3,49 +3,50 @@
 */
 
 
-.h00                { font-size: $base-size * 4; }
-.h0                 { font-size: $base-size * 3.5; }
-.h1                 { font-size: $base-size * 3; }
-.h2                 { font-size: $base-size * 2.5; }
-.h3                 { font-size: $base-size * 2; }
-.h4                 { font-size: $base-size * 1.5; }
-.h5                 { font-size: $base-size * 1.25; }
-.h6                 { font-size: $base-size; }
+.h00                { font-size: $base * 4; }
+.h0                 { font-size: $base * 3.5; }
+.h1                 { font-size: $base * 3; }
+.h2                 { font-size: $base * 2.5; }
+.h3                 { font-size: $base * 2; }
+.h4                 { font-size: $base * 1.5; }
+.h5                 { font-size: $base * 1.25; }
+.h6                 { font-size: $base; }
+.small              { font-size: $base * .75; }
 
 .heading
 {
-	margin-top: $base-size * 1.5;
-	margin-bottom: $base-size;
+	margin-top: $base * 1.5;
+	margin-bottom: $base;
 }
 
 .heading-i
 {
-	margin-top: $base-size;
-	margin-bottom: $base-size * 1.5;
+	margin-top: $base;
+	margin-bottom: $base * 1.5;
 }
 
 .ul
 {
-	margin: $base-size;
+	margin: $base;
 	.ul {
-		margin: $base-size ($base-size * .875);
+		margin: $base ($base * .875);
 	}
 	li {
-		margin: ($base-size * .5) 0;
+		margin: ($base * .5) 0;
 		li {
-			margin: ($base-size * .5) 0;
-			font-size: .875em;
+			margin: ($base * .5) 0;
+			font-size: $base * .875;
 		}
 	}
 }
 
 .ul-inline
 {
-	margin-left: (-$base-size) * .5;
+	margin-left: (-$base) * .5;
 	padding: 0;
 	& > li {
-		padding-right: $base-size * .5;
-		padding-left: $base-size * .5;
+		padding-right: $base * .5;
+		padding-left: $base * .5;
 		display: inline-block;
 	}
 }
@@ -56,13 +57,12 @@
 	list-style: none !important;
 }
 
-.ul-sm li           { margin: $base-size * .25 0; }
-.ul-md li           { margin: $base-size * .5 0; }
-.ul-lg li           { margin: $base-size * .75 0; }
+.ul-sm li           { margin: $base * .25 0; }
+.ul-md li           { margin: $base * .5 0; }
+.ul-lg li           { margin: $base * .75 0; }
 
-.indent             { padding-left: $base-size; }
+.indent             { padding-left: $base; }
 
-.small              { font-size: $base-size * .8; }
 .italic             { font-style: italic; }
 .normal             { font-weight: normal; }
 .strong             { font-weight: bold; }
