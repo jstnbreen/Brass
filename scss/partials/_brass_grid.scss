@@ -26,7 +26,7 @@
 	}
 }
 
-.row                { max-width: $base * 64; }
+.row                { max-width: ($base * 64) + ($base * 2); }
 
 .spacing > [class*="xs-c"],
 .spacing > [class*="sm-c"],
@@ -47,8 +47,6 @@
 	float: left;
 	position: relative;
 }
-
-// [class*="sm-c"]     { width: 100%; }
 
 .xs-c1              { width: 8.333333%; }
 .xs-c2              { width: 16.666667%; }
