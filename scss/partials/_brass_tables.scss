@@ -2,7 +2,6 @@
 {
 	width: 100%;
 	max-width: 100%;
-	background-color: transparent;
 	th, td {
 		padding: $base * .75;
 	}
@@ -29,7 +28,7 @@
 	padding: $base;
 }
 
-@media screen and (max-width: $xs-max) {
+@media (max-width: $xs-max) {
 	.table-r
 	{
 		width: 100%;
