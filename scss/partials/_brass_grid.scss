@@ -48,6 +48,8 @@
 	position: relative;
 }
 
+// [class*="sm-c"]     { width: 100%; }
+
 .xs-c1              { width: 8.333333%; }
 .xs-c2              { width: 16.666667%; }
 .xs-c3              { width: 25%; }
@@ -110,8 +112,6 @@
 	float: none;
 	display: table;
 }
-
-[class*="sm-c"]     { width: 100%; }
 
 @media (min-width: $sm-min) {
 	[class*="sm-c"] { float: left; }
