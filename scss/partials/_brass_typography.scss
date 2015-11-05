@@ -27,20 +27,9 @@
 .ul
 {
 	margin: $base;
-	.ul {
-		// margin: $base; -or- margin: $base ($base * .875);
-		// one of the two is right, or neither because already defined
-	}
-	li {
-		// margin: ($base * .5) 0;
-		// instead of defining li spacing,
-		// let ul-sm (etc) define
-		li {
-			// margin: ($base * .5) 0;
-			// instead of defining nested li spacing,
-			// let ul-sm (etc) define
-			font-size: $base * .875;
-		}
+	padding-left: $base;
+	li li {
+		font-size: $base * .875;
 	}
 }
 
@@ -61,24 +50,13 @@
 	list-style: none !important;
 }
 
-// Also solution for totally unstyled list
-// like with no margin on .ul
-// but should ppl have to do m-0 for it or what then
-
-
-// Indent-lg option could offer the "40px" indent for .ul
-// Too much work?
-
-
-// Btn's baby
-// Interesting border: 1px solid transparent;
-// effect has better spacing
-
 .ul-sm li           { margin: $base * .25 0; }
 .ul-md li           { margin: $base * .5 0; }
 .ul-lg li           { margin: $base * .75 0; }
 
-.indent             { padding-left: $base; }
+.ul .ul-sm li       { margin: $base * .25 0; }
+.ul .ul-md li       { margin: $base * .5 0; }
+.ul .ul-lg li       { margin: $base * .75 0; }
 
 .italic             { font-style: italic; }
 .normal             { font-weight: normal; }
@@ -88,3 +66,10 @@
 .text-right         { text-align: right; }
 .text-center        { text-align: center; }
 .text-justify       { text-align: justify; }
+
+
+
+
+// Btn's
+// Interesting effect may offer better spacing
+// border: 1px solid transparent;
