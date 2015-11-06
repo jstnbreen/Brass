@@ -28,14 +28,6 @@
 
 .row                { max-width: ($base * 64) + ($base * 2); }
 
-.spacing > [class*="xs-c"],
-.spacing > [class*="sm-c"],
-.spacing > [class*="md-c"],
-.spacing > [class*="lg-c"]
-{
-	margin-bottom: $base;
-}
-
 [class*="xs-c"],
 [class*="sm-c"],
 [class*="md-c"],
@@ -47,6 +39,14 @@
 	min-height: 1px;
 	float: left;
 	position: relative;
+}
+
+.spacing > [class*="xs-c"],
+.spacing > [class*="sm-c"],
+.spacing > [class*="md-c"],
+.spacing > [class*="lg-c"]
+{
+	margin-bottom: $base;
 }
 
 .xs-c1              { width: 8.33333%; }
