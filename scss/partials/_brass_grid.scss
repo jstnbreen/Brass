@@ -16,6 +16,13 @@
 	.hide-lg        { display: none !important; }
 }
 
+//  Testing using block instead of table on centering
+
+//  Currently the columns selector encompasses center classes too
+//  Will this be a problem?
+//  E.x. [class*="xs-c"] selector will affect xs-center
+
+
 .row, .row-fluid
 {
 	margin: 0 auto;
@@ -58,9 +65,9 @@
 .xs-c7              { width: 58.33333%; }
 .xs-c8              { width: 66.66667%; }
 .xs-c9              { width: 75%; }
-.xs-c10             { width: 83.33333%;}
-.xs-c11             { width: 91.66667%;}
-.xs-c12             { width: 100%;}
+.xs-c10             { width: 83.33333%; }
+.xs-c11             { width: 91.66667%; }
+.xs-c12             { width: 100%; }
 
 .xs-push-0          { left: auto; }
 .xs-push-1          { left: 8.33333%; }
