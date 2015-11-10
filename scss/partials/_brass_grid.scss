@@ -16,13 +16,6 @@
 	.hide-lg        { display: none !important; }
 }
 
-//  Testing using block instead of table on centering
-
-//  Currently the columns selector encompasses center classes too
-//  Will this be a problem?
-//  E.x. [class*="xs-c"] selector will affect xs-center
-
-
 .row, .row-fluid
 {
 	margin: 0 auto;
@@ -113,7 +106,6 @@
 	margin-right: auto;
 	margin-left: auto;
 	float: none;
-	display: table;
 }
 
 @media (min-width: $sm-min) {
@@ -176,7 +168,6 @@
 		margin-right: auto;
 		margin-left: auto;
 		float: none;
-		display: table;
 	}
 }
 
@@ -240,7 +231,6 @@
 		margin-right: auto;
 		margin-left: auto;
 		float: none;
-		display: table;
 	}
 }
 
@@ -304,10 +294,10 @@
 		margin-right: auto;
 		margin-left: auto;
 		float: none;
-		display: table;
 	}
 }
 
+.cf:after,
 .row:before,
 .row:after,
 .row-fluid:before,
@@ -315,6 +305,7 @@
 	content: '';
 	display: table;
 }
+.cf:after,
 .row:after,
 .row-fluid:after {
 	clear: both;

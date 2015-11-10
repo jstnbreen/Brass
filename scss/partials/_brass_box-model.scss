@@ -3,13 +3,6 @@
 */
 
 
-.cf:after
-{
-	content: '';
-	display: table;
-	clear: both;
-}
-
 .dn                 { display: none !important; }
 .db                 { display: block; }
 .dib                { display: inline-block; }
@@ -24,3 +17,5 @@
 
 .full               { width: 100%; }
 .fit                { max-width: 100% !important; }
+
+//  Need these 2?
