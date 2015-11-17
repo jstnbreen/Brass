@@ -306,13 +306,16 @@
 .row:before,
 .row:after,
 .row-fluid:before,
-.row-fluid:after {
+.row-fluid:after
+{
 	content: '';
 	display: table;
 }
+
 .cf:after,
 .row:after,
-.row-fluid:after {
+.row-fluid:after
+{
 	clear: both;
 }
 
@@ -327,7 +330,8 @@
 .row-fluid:after,
 .row-fluid *,
 .row-fluid *:before,
-.row-fluid *:after {
+.row-fluid *:after
+{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
