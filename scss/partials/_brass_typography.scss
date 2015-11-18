@@ -23,10 +23,10 @@
 	margin: $base;
 	padding-left: $base;
 	li {
-		margin: $base * .5 0;
+		margin: ($base * .5) 0;
 	}
 	li li {
-		margin: $base * .5 0;
+		margin: ($base * .5) 0;
 		font-size: $base * .875;
 	}
 }

@@ -18,15 +18,21 @@
 
 .row, .row-fluid
 {
-	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
 	width: 100%;
 	.row, .row-fluid {
-		margin: 0 (-$base);
+		margin-right: (-$base);
+		margin-left: (-$base);
 		width: auto;
 	}
 }
 
-.row                { max-width: ($base * 64) + ($base * 2); }
+.row                { max-width: $base * 64; }
+
+//  .bleed makes a row touch the edges
+
+//  Use a container or nah
 
 [class*="xs-c"],
 [class*="sm-c"],
