@@ -18,15 +18,13 @@
 
 .row
 {
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 	max-width: $base * 64;
 	@media (min-width: $lg-min) {
 		& { max-width: $lg-min; }
 	}
 	.row {
-		margin-right: (-$base);
-		margin-left: (-$base);
+		margin: 0 (-$base);
 	}
 }
 
