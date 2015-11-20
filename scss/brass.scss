@@ -9,28 +9,27 @@ $base: 16px;
 
 
 /*
-	Responsive
+	Responsive Breakpoints
 */
 
 
-$xs-max: 47.9375em;
-$sm-min: 48em;
-$sm-max: 61.9375em;
-$md-min: 62em;
-$md-max: 74.9375em;
-$lg-min: 75em;
+$xs-max: 767px;
+$sm-min: 768px;      // 48em
+$sm-max: 1023px;
+$md-min: 1024px;     // 64em
+$md-max: 1279px;
+$lg-min: 1280px;     // 80em
 
 
 
 
 /*
-	Partials
+	Modules
 */
 
 
-@import "partials/brass_typography";
-@import "partials/brass_grid";
-@import "partials/brass_box-model";
-@import "partials/brass_tables";
-@import "partials/brass_positioning";
-//  @import "../test/brass_forms";
+@import "modules/brass_typography";
+@import "modules/brass_grid";
+@import "modules/brass_box-model";
+@import "modules/brass_tables";
+@import "modules/brass_positionin g";

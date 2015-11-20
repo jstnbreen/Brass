@@ -14,15 +14,11 @@
 		body {
 			margin: 0;
 			font-family: 'Roboto', Helvetica, Arial, sans-serif;
-			/*line-height: 1.5;*/
+			line-height: 1.5;
 		}
 
-		/*p {
-			margin: 0 0 1em;
-		}*/
-
 		p {
-			margin: 1em 0;
+			margin: 0 0 1em;
 		}
 
 	</style>
@@ -30,9 +26,36 @@
 	<title>Test</title>
 </head>
 
-<body>
+<body class="px-1">
+	<div id="bla" style="margin:0 auto;max-width:940px;">
+		<div class="bleed">
+			<div class="row">
+				<div class="sm-c12 text-center">
+					<img class="fit db" src="http://placehold.it/1300x200?text=[img]">
+				</div>
+			</div>
+			<div class="row">
+				<div class="sm-c12">
+					<div class="row">
+						<div class="sm-c12">
+							<div class="row">
+								<div class="sm-c12">
+									<div class="row">
+										<div class="sm-c12">
+											<img class="fit" src="http://placehold.it/1300x200?text=[img]">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="row">
-		<div class="sm-c8 md-c7">
+		<div class="sm-c8 md-c7 lg-c6">
 			<h1 class="h3 heading">Grid</h1>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eveniet similique temporibus omnis accusamus sapiente obcaecati repellat tempore eligendi laudantium consequatur, sunt magni eaque dolorum libero. Harum fugiat, impedit earum.
@@ -41,7 +64,7 @@
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt tempora nesciunt nulla, nam, doloribus ipsa mollitia quia repudiandae, explicabo vel consectetur dolor voluptates reiciendis sint perspiciatis porro maiores velit.
 			</p>
 		</div>
-		<div class="xs-c10 xs-center sm-c4 md-c4 md-offs-1">
+		<div class="xs-c10 xs-center sm-c4 md-c4 md-offs-1 lg-c6 lg-offs-0">
 			<img class="fit my-3" src="http://placehold.it/600x400?text=[img]">
 		</div>
 	</div>
@@ -90,13 +113,13 @@
 				Center. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, expedita quisquam consequatur non vero blanditiis laboriosam placeat! Dolorum iusto, soluta, impedit, amet voluptatum dolores molestias aut eligendi assumenda fugit blanditiis!
 			</p>
 		</div>
-		<div class="sm-c4">
+		<div class="sm-c4 cf">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, expedita quisquam consequatur non vero blanditiis laboriosam placeat! Dolorum iusto, soluta, impedit, amet voluptatum dolores molestias aut eligendi assumenda fugit blanditiis!
 			</p>
 		</div>
-		<div class="cf"></div>
-		<div class="sm-c4">
+		<!-- <div class="cf"></div> -->
+		<div class="sm-c4 cf">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, expedita quisquam consequatur non vero blanditiis laboriosam placeat! Dolorum iusto, soluta, impedit, amet voluptatum dolores molestias aut eligendi assumenda fugit blanditiis!
 			</p>

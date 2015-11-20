@@ -16,23 +16,25 @@
 	.hide-lg        { display: none !important; }
 }
 
-.row, .row-fluid
+.row
 {
 	margin-right: auto;
 	margin-left: auto;
-	width: 100%;
-	.row, .row-fluid {
+	max-width: $base * 64;
+	@media (min-width: $lg-min) {
+		& { max-width: $lg-min; }
+	}
+	.row {
 		margin-right: (-$base);
 		margin-left: (-$base);
-		width: auto;
 	}
 }
 
-.row                { max-width: $base * 64; }
-
-//  .bleed makes a row touch the edges
-
-//  Use a container or nah
+.bleed
+{
+	margin-right: (-$base);
+	margin-left: (-$base);
+}
 
 [class*="xs-c"],
 [class*="sm-c"],
@@ -112,7 +114,6 @@
 	margin-right: auto;
 	margin-left: auto;
 	float: none;
-	display: table;
 }
 
 @media (min-width: $sm-min) {
@@ -175,7 +176,6 @@
 		margin-right: auto;
 		margin-left: auto;
 		float: none;
-		display: table;
 	}
 }
 
@@ -239,7 +239,6 @@
 		margin-right: auto;
 		margin-left: auto;
 		float: none;
-		display: table;
 	}
 }
 
@@ -303,7 +302,6 @@
 		margin-right: auto;
 		margin-left: auto;
 		float: none;
-		display: table;
 	}
 }
 
@@ -330,15 +328,11 @@
 .row:after,
 .row *,
 .row *:before,
-.row *:after,
-.row-fluid,
-.row-fluid:before,
-.row-fluid:after,
-.row-fluid *,
-.row-fluid *:before,
-.row-fluid *:after
+.row *:after
 {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+.row img { vertical-align: middle; }
